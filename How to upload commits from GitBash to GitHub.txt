@@ -1,0 +1,5 @@
+How to push "upload" a commit from computer to Git Hub.
+
+First you have to clone (download) your repo to your computer by "git clone "Repo URL"
+
+1. git remote add origin to add 
