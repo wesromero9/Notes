@@ -2,4 +2,18 @@ How to push "upload" a commit from computer to Git Hub.
 
 First you have to clone (download) your repo to your computer by "git clone "Repo URL"
 
-1. git remote add origin to add 
+1. git init to initilalize the git (just a hidden folder.) and downloads other things you have in that repo (like a Read me file)
+
+2. git remote add origin (to be able to push from comp to git hub) 
+	git remote add origin "url link" (basically cloning)
+
+3. git remote -v is basically to see if we are able to pull or push. It should say origin "url" (fetch) and under it the same thing except (push)
+	it says we have permission to push or pull.
+
+4. git add . just uploads all the files in the repo folder from the computer. you can do an individual file by git add "file"
+	this tells the comp thats its ready to commit
+
+5. git commit -m "the purpose of the commit- ex (Adding a new Read me File)"
+
+6. git push origin main is just to upload the commit to GitHub.
+
